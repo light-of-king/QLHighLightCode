@@ -11,7 +11,12 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>SUPPORTED_UTI_TYPE</string>
+				<string>public.objective-c-source</string>
+				<string>public.source-code</string>
+				<string>public.text</string>
+				<string>public.plain-text</string>
+				<string>public.c-header</string>
+				<string>com.netscape.javascript-source</string>
 			</array>
 		</dict>
 	</array>
@@ -48,7 +53,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2018 King. All rights reserved.</string>
 	<key>QLNeedsToBeRunInMainThread</key>
-	<false/>
+	<true/>
 	<key>QLPreviewHeight</key>
 	<real>600</real>
 	<key>QLPreviewWidth</key>
@@ -56,6 +61,6 @@
 	<key>QLSupportsConcurrentRequests</key>
 	<false/>
 	<key>QLThumbnailMinimumSize</key>
-	<real>17</real>
+	<integer>32</integer>
 </dict>
 </plist>
